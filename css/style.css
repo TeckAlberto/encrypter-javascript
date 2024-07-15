@@ -26,6 +26,7 @@ body {
 .notice {
     display: flex;
     align-items: center;
+    color: #495057;
 }
 .notice svg {
     margin-right: .5rem;
@@ -38,19 +39,37 @@ body {
     margin-bottom: 5rem;
 }
 
+@media (min-width: 768px) {
+    .buttons {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+}
+@media (min-width: 1440px) {}
+
+
+
 .button {
     border-radius: 2.4rem;
     padding: 2.4rem;
     font-size: 1.6rem;
     text-align: center;
+    width: 100%;
+    border-color: #0A3871;
+    cursor: pointer;
 }
 .button_blue {
     background-color:#0A3871;
     color: #FFF;
 }
-.button_white {
+.button_alter {
     background-color: #F3F5FC;
     color: #000;
+}
+.button_white {
+    background-color: #FFF;
+    color: #0A3871;
 }
 
 .box {
@@ -59,23 +78,28 @@ body {
     flex-direction: column;
     border-radius: 3.2rem;
     padding: 3.2rem;
-    font-size: 2.4rem;
-    font-weight: 700;
     text-align: center;
     -webkit-box-shadow: 10px 10px 38px -20px rgba(0, 0, 0, 0.46);
     -moz-box-shadow: 10px 10px 38px -20px rgba(0, 0, 0, 0.46);
     box-shadow: 10px 10px 38px -20px rgba(0, 0, 0, 0.46);
 }
-.box span {
-    margin-top: 1rem;
+.box_input {
     font-size: 1.6rem;
     font-weight: 400;
 }
-@media (min-width: 1440px) {
-    
+.box_message {
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+.box_result {
+    font-size: 2.4rem;
+    font-weight: 400;
 }
 
 
-@media (min-width: 768px) {}
+/* .box  {
+    margin-top: 1rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+} */
 
-@media (min-width: 375px) {}

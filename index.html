@@ -32,10 +32,15 @@
 
         <div class="buttons">
             <button class="button button_blue" id="encrypt">Encriptar</button>
-            <button class="button button_white" id="decrypt">Desencriptar</button>
+            <button class="button button_alter" id="decrypt">Desencriptar</button>
         </div>
 
-        <p class="box" id="message">Ningún mensaje fue encontrado <br><span>Ingresa el texto que desees encriptar o desencriptar.</span></p>
+        <div class="box"">
+            <p class="box_message">Ningún mensaje fue encontrado</p> 
+            <p class="box_input" id="output">Ingresa el texto que desees encriptar o desencriptar.</p>
+
+            <button type="text" hidden class="button button_white" id="copy">Copiar</button>
+        </div>
     </main>
 </body>
 </html>
