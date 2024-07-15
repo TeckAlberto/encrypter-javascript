@@ -1,0 +1,81 @@
+body {
+    background-color: #F3F5FC;
+}
+
+
+.container {
+    max-width: 120rem;
+    margin: 0 auto;
+    width: 90%;
+    padding: 2rem;
+}
+
+.text {
+    border: none;
+    background-color: #F3F5FC;
+    font-size: 3.2rem;
+    height: 25rem;
+    width: 100%;
+    color: #0A3871;
+}
+.text::placeholder {
+    color: #0A3871;
+}
+
+
+.notice {
+    display: flex;
+    align-items: center;
+}
+.notice svg {
+    margin-right: .5rem;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+    margin-bottom: 5rem;
+}
+
+.button {
+    border-radius: 2.4rem;
+    padding: 2.4rem;
+    font-size: 1.6rem;
+    text-align: center;
+}
+.button_blue {
+    background-color:#0A3871;
+    color: #FFF;
+}
+.button_white {
+    background-color: #F3F5FC;
+    color: #000;
+}
+
+.box {
+    display: flex;
+    background-color: #FFF;
+    flex-direction: column;
+    border-radius: 3.2rem;
+    padding: 3.2rem;
+    font-size: 2.4rem;
+    font-weight: 700;
+    text-align: center;
+    -webkit-box-shadow: 10px 10px 38px -20px rgba(0, 0, 0, 0.46);
+    -moz-box-shadow: 10px 10px 38px -20px rgba(0, 0, 0, 0.46);
+    box-shadow: 10px 10px 38px -20px rgba(0, 0, 0, 0.46);
+}
+.box span {
+    margin-top: 1rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+@media (min-width: 1440px) {
+    
+}
+
+
+@media (min-width: 768px) {}
+
+@media (min-width: 375px) {}
